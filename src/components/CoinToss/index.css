@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(to right,  #f9d423,  #e2a139);
+  height: 100vh;
+  width: 100%;
+}
+.scnd-container {
+  background-color: white;
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+.coin-img {
+  height: 200px;
+  width: 200px;
+}
+.heading {
+  color: #e2a139;
+}
+.button {
+  background-color: #e2a139;
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
